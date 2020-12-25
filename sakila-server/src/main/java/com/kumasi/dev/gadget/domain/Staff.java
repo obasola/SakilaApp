@@ -3,6 +3,7 @@ package com.kumasi.dev.gadget.domain;
 import java.sql.Timestamp;
 import java.util.Calendar;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -18,11 +19,11 @@ import com.kumasi.DateUtil;
 public class Staff {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "staff_id")
 	private int id;
 	
-	@ManyToOne(fetch = FetchType.EAGER)
+	@ManyToOne(fetch = FetchType.EAGER, cascade=CascadeType.ALL)
 	@JoinColumn(name ="address_id")
 	private Address address;
 	
@@ -45,6 +46,18 @@ public class Staff {
 	
 	public Staff() {
 		super();
+	}
+	public Staff(Address addr, String firstName, String lastName, boolean active, String userName, String password) {
+		super();
+
+		this.address = addr;
+		this.store = null;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.active = active;
+		this.userName = userName;
+		this.password = password;
+		this.lastUpdated = DateUtil.currentTimestamp;
 	}
 	public Staff(Address address, Store store, String firstName, String lastName, boolean active, String userName,
 			String password) {

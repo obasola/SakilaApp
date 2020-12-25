@@ -18,7 +18,7 @@ import javax.persistence.Table;
 public class Address {
 ;
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "address_id")
 	private int id;
 	
@@ -41,11 +41,12 @@ public class Address {
 	public Address() {
 		super();
 	}
-	public Address(String address, String district, City city, String phone, String location) {
+	public Address(String address, String district, City city, String postalCode, String phone, String location) {
 		super();
 		this.address = address;
 		this.district = district;
 		this.city = city;
+		this.postalCode = postalCode;
 		this.phone = phone;
 		this.location = location;
 		this.lastUpdated = new Timestamp(Calendar.getInstance().getTime().getTime());

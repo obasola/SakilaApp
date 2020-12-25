@@ -18,7 +18,7 @@ import com.kumasi.DateUtil;
 public class Rental {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "rental_id")
 	private int id;
 	

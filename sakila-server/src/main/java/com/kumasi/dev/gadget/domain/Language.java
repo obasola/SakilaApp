@@ -13,7 +13,7 @@ import javax.persistence.Table;
 @Table(name = "language")
 public class Language {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "language_id")
 	private int id;
 	private String name;

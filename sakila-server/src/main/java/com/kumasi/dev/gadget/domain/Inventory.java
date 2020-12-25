@@ -16,7 +16,7 @@ import com.kumasi.DateUtil;
 @Entity
 public class Inventory {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "inventory_id")
 	private int id;
 	

@@ -9,6 +9,7 @@ import com.kumasi.dev.gadget.domain.Staff;
 public interface StaffRepository extends JpaRepository<Staff, Integer> {
 	public Staff findById(int id);
 	public Staff findByUserName(String userName);
+	public List<Staff> findByLastName(String lname);
 	public Staff findByEmail(String email);
 	public List<Staff> findAll();
 }

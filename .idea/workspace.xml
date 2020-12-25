@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8eedb65-a011-45a7-8b7e-bb0e099926ff" name="Default Changelist" comment="" />
+    <list default="true" id="d8eedb65-a011-45a7-8b7e-bb0e099926ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin" beforeDir="false" afterPath="$PROJECT_DIR$/sakila-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/sakila-admin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sakila-admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sakila-admin/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sakila-admin/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sakila-admin/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sakila-admin/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sakila-admin/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/sakila-admin/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sakila-client-vue3" />
   </component>
   <component name="ProjectId" id="1lk6qpkLkcODw4ImLM3xHH048Kg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -29,13 +46,26 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="GadgetApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SakilaApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kumasi.GadgetApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/sakila-server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kumasi.GadgetApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -50,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608128936216</updated>
       <workItem from="1608128937723" duration="3507000" />
+      <workItem from="1608566144158" duration="696000" />
     </task>
     <servers />
   </component>

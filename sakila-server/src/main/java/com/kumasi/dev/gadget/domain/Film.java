@@ -18,7 +18,7 @@ import com.kumasi.Rating;
 @Entity
 public class Film {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "film_id")
 	private int id;
 	
